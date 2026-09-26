@@ -1,0 +1,4 @@
+.profile-head{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center}
+.avatar{width:88px;height:88px;border-radius:50%;display:grid;place-items:center;background:#dbeafe;color:#1d4ed8;font-size:27px;font-weight:800}
+.profile-section{margin-top:20px}.profile-section h2{font-size:21px;margin-bottom:12px}.skill-list{display:flex;flex-wrap:wrap;gap:8px}.skill{padding:6px 11px;background:#eff6ff;color:#1d4ed8;border-radius:999px;font-size:13px;font-weight:700}
+@media(max-width:700px){.profile-head{grid-template-columns:1fr}}

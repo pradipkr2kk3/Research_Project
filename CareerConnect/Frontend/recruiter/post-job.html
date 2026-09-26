@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Post Job - CareerConnect</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/dashboard.css">
+<link rel="stylesheet" href="../css/recruiter.css">
+</head>
+<body>
+<div class="app-layout"><aside class="sidebar"><a class="logo" href="dashboard.html"><span class="logo-mark">CC</span><span>CareerConnect</span></a>
+<div class="sidebar-title">Recruiter Panel</div>
+<a class="" href="dashboard.html">Dashboard</a><a class="" href="company-profile.html">Company Profile</a><a class="active" href="post-job.html">Post Job</a><a class="" href="manage-jobs.html">Manage Jobs</a><a class="" href="applicants.html">Applicants</a><a class="" href="notifications.html">Notifications</a><a class="" href="settings.html">Settings</a>
+<a href="../auth/login.html" style="margin-top:18px;">Logout</a></aside><main class="dashboard-main"><div class="page-header"><h1>Post Job</h1><p>CareerConnect recruiter panel</p></div><div class="card"><form id="postJobForm"><div class="grid-2">
+<div class="form-group"><label>Job Title</label><input class="form-control" id="jobTitle" placeholder="Java Developer" required></div><div class="form-group"><label>Location</label><input class="form-control" id="location" placeholder="Pune / Remote" required></div>
+<div class="form-group"><label>Job Type</label><select class="form-control" id="jobType"><option>Full Time</option><option>Part Time</option><option>Internship</option><option>Contract</option></select></div>
+<div class="form-group"><label>Experience</label><input class="form-control" id="experience" placeholder="0-2 Years"></div>
+<div class="form-group"><label>Salary</label><input class="form-control" id="salary" placeholder="₹4-7 LPA"></div><div class="form-group"><label>Application Deadline</label><input class="form-control" id="deadline" type="date"></div></div>
+<div class="form-group"><label>Required Skills</label><input class="form-control" id="skills" placeholder="Java, Spring Boot, SQL"></div>
+<div class="form-group"><label>Job Description</label><textarea class="form-control" id="description" required></textarea></div>
+<div class="form-group"><label>Responsibilities</label><textarea class="form-control" id="responsibilities"></textarea></div>
+<button class="btn btn-primary" type="submit">Post Job</button></form></div></main></div>
+</body>
+</html>

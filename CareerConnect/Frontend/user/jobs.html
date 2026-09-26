@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Find Jobs - CareerConnect</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/dashboard.css">
+<link rel="stylesheet" href="../css/jobs.css">
+</head>
+<body>
+<div class="app-layout"><aside class="sidebar"><a class="logo" href="dashboard.html"><span class="logo-mark">CC</span><span>CareerConnect</span></a>
+<div class="sidebar-title">User Panel</div>
+<a class="" href="dashboard.html">Dashboard</a><a class="" href="profile.html">Profile</a><a class="active" href="jobs.html">Find Jobs</a><a class="" href="applications.html">Applications</a><a class="" href="saved-jobs.html">Saved Jobs</a><a class="" href="network.html">Network</a><a class="" href="notifications.html">Notifications</a>
+<a href="../auth/login.html" style="margin-top:18px;">Logout</a></aside><main class="dashboard-main"><div class="page-header"><h1>Find Jobs</h1><p>CareerConnect user panel</p></div><div class="search-panel"><form id="jobSearchForm"><div class="grid-3">
+<div class="form-group"><label>Keyword</label><input class="form-control" id="keyword" placeholder="Java, React, Developer"></div>
+<div class="form-group"><label>Location</label><input class="form-control" id="location" placeholder="Pune, Mumbai, Remote"></div>
+<div class="form-group"><label>Job Type</label><select class="form-control" id="jobType"><option>All Types</option><option>Full Time</option><option>Part Time</option><option>Internship</option></select></div></div>
+<button class="btn btn-primary" type="submit">Search Jobs</button></form></div>
+<div class="job-list">
+<article class="job-card"><div class="job-top"><div><h2 class="job-title">Java Developer</h2><p class="company">ABC Technologies</p></div><span class="badge">Full Time</span></div><div class="job-meta"><span>📍 Pune</span><span>💼 0-2 Years</span><span>₹4-7 LPA</span></div><p>Develop applications using Java, Spring Boot and REST APIs.</p><div class="job-actions" style="margin-top:13px;"><a class="btn btn-primary" href="job-details.html">View Details</a><button class="btn btn-outline" id="saveJobBtn">Save Job</button></div></article>
+<article class="job-card"><div class="job-top"><div><h2 class="job-title">Frontend Developer</h2><p class="company">Tech Solutions</p></div><span class="badge">Remote</span></div><div class="job-meta"><span>🌐 Remote</span><span>💼 1-3 Years</span><span>₹5-9 LPA</span></div><p>Build responsive interfaces using HTML, CSS, JavaScript and React.</p><div class="job-actions" style="margin-top:13px;"><a class="btn btn-primary" href="job-details.html">View Details</a><button class="btn btn-outline">Save Job</button></div></article></div></main></div>
+</body>
+</html>

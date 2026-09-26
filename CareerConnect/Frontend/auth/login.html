@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - CareerConnect</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/auth.css">
+</head>
+<body>
+<main class="auth-page"><div class="auth-card">
+<div class="auth-brand"><a class="logo" href="../index.html"><span class="logo-mark">CC</span><span>CareerConnect</span></a><p>Login to your CareerConnect account</p></div>
+<form id="loginForm">
+<div class="form-group"><label for="email">Email Address</label><input class="form-control" id="email" name="email" type="email" required></div>
+<div class="form-group"><label for="password">Password</label><input class="form-control" id="password" name="password" type="password" required></div>
+<div class="form-group"><label for="role">Login As</label><select class="form-control" id="role" name="role" required>
+<option value="">Select role</option><option value="USER">Job Seeker</option><option value="RECRUITER">Recruiter</option><option value="ADMIN">Admin</option></select></div>
+<button class="btn btn-primary" type="submit" style="width:100%;">Login</button>
+</form>
+<div class="auth-links"><p><a href="forgot-password.html">Forgot Password?</a></p><p style="margin-top:8px;">New here? <a href="register.html">Create an account</a></p><p style="margin-top:10px;"><a href="../index.html">← Back to Home</a></p></div>
+</div></main>
+</body>
+</html>

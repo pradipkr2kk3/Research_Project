@@ -1,0 +1,30 @@
+Project Title :- CareerConnect-Professional Networking and Job Portal
+
+Problem Statement :- 
+    Nowadays, job seekers often use different websites to create professional profiles and search for job opportunities, while 
+    companies need an easy way to post jobs and manage applicants. Many existing platforms have too many features, making them 
+    complex for learning and academic purposes. The aim of this project is to develop a simple web-based Professional Networking 
+    and Job Portal called CareerConnect, where users can create and manage their profiles, add education, skills, and experience, 
+    search and apply for jobs, and companies can post job openings and view applications. This project will also help demonstrate 
+    the practical use of database management, backend development, and frontend technologies in a real-world application.
+
+Purpose :- 
+    To provide an online platform where job seekers and companies can interact efficiently for recruitment while maintaining
+     professional information in a structured database.
+
+
+We see :-
+HTML 
+    1. index.html
+    2. login.html
+    3. register.html
+    4. forgot_password.html
+
+CSS
+    1. style.CSS
+    2. auth.CSS
+
+
+
+<a class="" href="reports.html">Reports</a>  // if need reports then add Dashboard.html file 14 number & add all files simultaneously.
+<a class="" href="settings.html">Settings</a> // if need setting then add Dashboard.html file 14 number & add all files simultaneously.

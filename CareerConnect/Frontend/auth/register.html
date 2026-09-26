@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register - CareerConnect</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/auth.css">
+</head>
+<body>
+<main class="auth-page"><div class="auth-card">
+<div class="auth-brand"><a class="logo" href="../index.html"><span class="logo-mark">CC</span><span>CareerConnect</span></a><p>Create your CareerConnect account</p></div>
+<form id="registerForm">
+<div class="form-group"><label for="fullName">Full Name</label><input class="form-control" id="fullName" name="fullName" type="text" required></div>
+<div class="form-group"><label for="email">Email Address</label><input class="form-control" id="email" name="email" type="email" required></div>
+<div class="form-group"><label for="phone">Phone Number</label><input class="form-control" id="phone" name="phone" type="tel"></div>
+<div class="form-group"><label for="role">Register As</label><select class="form-control" id="role" name="role" required>
+<option value="">Select role</option><option value="USER">Job Seeker</option><option value="RECRUITER">Recruiter</option></select></div>
+<div class="grid-2"><div class="form-group"><label for="password">Password</label><input class="form-control" id="password" name="password" type="password" required></div>
+<div class="form-group"><label for="confirmPassword">Confirm Password</label><input class="form-control" id="confirmPassword" name="confirmPassword" type="password" required></div></div>
+<button class="btn btn-primary" type="submit" style="width:100%;">Create Account</button>
+</form>
+<div class="auth-links"><p>Already registered? <a href="login.html">Login</a></p><p style="margin-top:10px;"><a href="../index.html">← Back to Home</a></p></div>
+</div></main>
+</body>
+</html>

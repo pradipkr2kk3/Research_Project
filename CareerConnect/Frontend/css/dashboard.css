@@ -1,0 +1,7 @@
+.app-layout{display:grid;grid-template-columns:235px 1fr;min-height:calc(100vh - 70px)}
+.sidebar{background:#0f172a;color:#fff;padding:22px 13px}.sidebar .logo{color:#fff;margin:0 10px 25px}
+.sidebar-title{color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px;padding:0 10px 8px}
+.sidebar a{display:block;padding:10px;border-radius:8px;color:#cbd5e1;font-size:14px;margin:3px 0}.sidebar a:hover,.sidebar a.active{background:#1e293b;color:#fff}
+.dashboard-main{padding:28px}.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.stat-card h3{font-size:28px;margin:5px 0}.stat-card p{color:#64748b;font-size:13px}.dashboard-section{margin-top:22px}
+@media(max-width:950px){.app-layout{grid-template-columns:1fr}.sidebar{display:none}.stat-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:550px){.stat-grid{grid-template-columns:1fr}.dashboard-main{padding:18px}}
